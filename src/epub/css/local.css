@@ -105,10 +105,12 @@ section[epub|type~="epigraph"] > *{
 	@media(min-width: 35rem){
 		[epub|type~="z3998:dramatis-personae"] > div{
 			display: flex;
+			justify-content: center;
 		}
 
 		[epub|type~="z3998:dramatis-personae"] > div > section{
 			flex-grow: 1;
+			max-width: 30em;
 		}
 	}
 
